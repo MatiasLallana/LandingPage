@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: rgb(231, 234, 238);
+}
+.contenedor {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem;
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+.opciones {
+  text-align: center;
+  font-size: 15px;
+}
+.logo {
+  height: 50px;
+  width: 50px;
+}
+a {
+  text-decoration: none;
+}
