@@ -81,3 +81,36 @@ a {
 .about p {
   width: 800px;
 }
+
+.ventajas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 16px;
+}
+
+.image-svg {
+  width: 40px;
+  height: 40px;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card {
+  /* border: solid 1px black; */
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: 20%;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+  padding-top: 35px;
+}
