@@ -114,3 +114,70 @@ a {
   gap: 15px;
   padding-top: 35px;
 }
+
+.contacto {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+  padding: 16px;
+}
+
+.datitos img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  background-color: rgba(104, 105, 106, 0.289);
+}
+
+.datos_card {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  margin: 30px;
+  gap: 40px;
+}
+
+.datitos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.datos {
+}
+
+.primerDato {
+  gap: 15px;
+}
+
+.datos h2 {
+  margin: 30px;
+}
+
+.datito {
+  margin: 20px 0px;
+}
+
+.icon_social {
+  margin: 30px;
+}
+
+.icon_social img {
+  width: 30px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 16px;
+}
+
+footer img {
+  width: 40px;
+  height: 40px;
+}
